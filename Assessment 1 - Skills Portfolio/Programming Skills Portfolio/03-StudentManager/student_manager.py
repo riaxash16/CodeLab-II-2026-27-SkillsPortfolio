@@ -1,9 +1,6 @@
 """Exercise 3 - Student Manager (Tkinter), including the extension options."""
-# AI reference: this whole file was written by Claude (Anthropic).
-# Prompt: "help me finish the assignment" (Tkinter Student Manager brief: view
-# all / individual / highest / lowest, plus sort, add, delete and update with
-# changes saved back to studentMarks.txt).
- 
+# AI reference: this file was written with the help of Claude (Anthropic).
+
 import os
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog

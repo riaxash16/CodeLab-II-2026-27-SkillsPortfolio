@@ -1,6 +1,5 @@
 """Exercise 1 - Maths Quiz (Tkinter)."""
-# AI reference: this whole file was written by Claude (Anthropic).
-# Prompt: "give me the code" for the Tkinter Maths Quiz brief
+# AI reference: this file was written with the help of Claude (Anthropic).
 # (10 questions, 3 difficulty levels, 2 attempts per question, ranked results).
 
 import random

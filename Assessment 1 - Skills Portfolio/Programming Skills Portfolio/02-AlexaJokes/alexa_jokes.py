@@ -1,7 +1,5 @@
 """Exercise 2 - Alexa tell me a Joke (Tkinter)."""
 # AI reference: this file was written with the help of Claude (Anthropic).
-# Alexa button, Show Punchline, Next Joke and Quit buttons, jokes read from
-# randomJokes.txt where setup and punchline are separated by a question mark).
  
 import os
 import random

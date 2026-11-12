@@ -1,5 +1,5 @@
 """Exercise 1 - Maths Quiz (Tkinter)."""
-# AI reference: this file was written with the help of Claude (Anthropic).
+# AI reference: this file was written with the understanding of a youtube video.
 # (10 questions, 3 difficulty levels, 2 attempts per question, ranked results).
 
 import random

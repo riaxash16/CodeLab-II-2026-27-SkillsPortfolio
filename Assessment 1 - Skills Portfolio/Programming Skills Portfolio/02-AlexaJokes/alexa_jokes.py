@@ -1,5 +1,5 @@
 """Exercise 2 - Alexa tell me a Joke (Tkinter)."""
-# AI reference: this file was written with the help of Claude (Anthropic).
+# AI reference: this file was written with the understanding of this youtube video.
  
 import os
 import random

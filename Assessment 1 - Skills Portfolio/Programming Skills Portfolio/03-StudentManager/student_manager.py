@@ -1,5 +1,5 @@
 """Exercise 3 - Student Manager (Tkinter), including the extension options."""
-# AI reference: this file was written with the help of Claude (Anthropic).
+# AI reference: this file was written with the understanding of this youtube video.
 
 import os
 import tkinter as tk

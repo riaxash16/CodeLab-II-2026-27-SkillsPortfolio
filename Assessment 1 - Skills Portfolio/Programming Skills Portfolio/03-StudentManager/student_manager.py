@@ -21,7 +21,7 @@ GRADE_COLOURS = {"A": "#6fe39a", "B": "#5fd4c8", "C": "#f2d46b",
                  "D": "#f5a05f", "F": "#ff6b81"}
 
 
-# ---------- Data layer (no GUI code) ----------
+#Data layer
 class Student:
     """One student's record."""
 

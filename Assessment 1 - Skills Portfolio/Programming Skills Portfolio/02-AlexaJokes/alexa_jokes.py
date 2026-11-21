@@ -170,6 +170,7 @@ class JokeApp:
         self.updateStats()
         self.setup_bubble.config(text="")
         self.punch_bubble.config(text="", bg=DARK)
+        # Switch every button off for the new joke, then let Next Joke work straight away
         for button in (self.punchline_button, self.next_button,
                        self.laugh_button, self.groan_button, self.fav_button):
             button.config(state="disabled")

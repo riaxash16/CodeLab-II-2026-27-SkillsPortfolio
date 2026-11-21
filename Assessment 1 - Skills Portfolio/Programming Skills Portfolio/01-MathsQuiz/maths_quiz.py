@@ -151,7 +151,6 @@ class MathsQuiz:
                          cursor="hand2", pady=6)
 
     #Screens
-
     def displayMenu(self):
         """Show the difficulty menu with each level's best score."""
         self.clearScreen()

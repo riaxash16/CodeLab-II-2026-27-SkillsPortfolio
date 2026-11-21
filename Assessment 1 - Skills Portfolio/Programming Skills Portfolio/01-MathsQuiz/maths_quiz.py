@@ -151,7 +151,7 @@ class MathsQuiz:
                          font=("Segoe UI", 12, "bold"), relief="flat",
                          cursor="hand2", pady=6)
 
-    # --- screens ---
+    #Screens
 
     def displayMenu(self):
         """Show the difficulty menu with each level's best score."""

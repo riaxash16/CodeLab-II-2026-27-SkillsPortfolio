@@ -31,6 +31,8 @@ class Student:
         self.coursework_marks = coursework_marks #List of 3 marks out of 20
         self.exam = exam
 
+# @property lets the code write student.total instead of student.total(),
+    # and the value is always worked out fresh from the marks
     @property
     def coursework(self):
         return sum(self.coursework_marks)

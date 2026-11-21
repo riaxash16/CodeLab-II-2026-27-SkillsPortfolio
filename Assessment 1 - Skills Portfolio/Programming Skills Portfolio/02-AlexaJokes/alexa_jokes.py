@@ -196,7 +196,7 @@ class JokeApp:
         self.drumroll(0)
 
     def drumroll(self, step):
-        """Simulate a drumroll animation before revealing the punchline."""
+        # Show "Drumroll" with a changing number of dots for about two seconds
         if step < 6:
             self.punch_bubble.config(text="Drumroll" + "." * (step % 4))
             self.anim_id = self.root.after(300, self.drumroll, step + 1)

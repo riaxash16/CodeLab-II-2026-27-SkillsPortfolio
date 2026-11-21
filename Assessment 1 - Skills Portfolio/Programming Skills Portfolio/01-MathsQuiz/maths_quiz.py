@@ -291,7 +291,7 @@ class MathsQuiz:
             self.feedback.config(text=message, fg=WARN)
             self.entry.delete(0, tk.END)
             self.startTimer()
-        else:  # wrong twice
+        else:  #wrong twice
             self.streak = 0
             self.finishQuestion(message, BAD)
 

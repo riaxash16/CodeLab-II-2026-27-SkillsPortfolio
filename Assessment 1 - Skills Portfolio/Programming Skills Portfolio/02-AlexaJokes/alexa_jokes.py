@@ -57,7 +57,6 @@ def saveFavourites(favourites, path=FAVOURITES_FILE):
         for favourite in favourites:
             file.write(favourite + "\n")
 
-
 def reaction(laughs, groans):
     """Alexa's comment on how the audience is reacting."""
     if laughs + groans == 0:

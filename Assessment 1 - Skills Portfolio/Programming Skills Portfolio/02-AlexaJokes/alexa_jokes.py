@@ -52,7 +52,6 @@ def loadFavourites(path=FAVOURITES_FILE):
     with open(path, encoding="utf-8") as file:
         return [line.strip() for line in file if line.strip()]
 
-
 def saveFavourites(favourites, path=FAVOURITES_FILE):
     with open(path, "w", encoding="utf-8") as file:
         for favourite in favourites:

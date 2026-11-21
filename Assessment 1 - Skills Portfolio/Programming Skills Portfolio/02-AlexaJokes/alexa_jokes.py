@@ -122,7 +122,7 @@ class JokeApp:
             button.pack(side="left", padx=4)
             button.config(state="disabled")
 
-        # Required buttons
+        #Required buttons
         controls = tk.Frame(root, bg=BG)
         controls.pack(pady=12)
         self.alexa_button = self.makeButton(controls, "Alexa tell me a Joke",

@@ -69,7 +69,6 @@ def reaction(laughs, groans):
 
 
 # ---------- GUI ----------
-
 class JokeApp:
     def __init__(self, root, jokes):
         self.root = root

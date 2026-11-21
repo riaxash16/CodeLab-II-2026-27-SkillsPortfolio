@@ -47,7 +47,7 @@ class Student:
 
     @property
     def grade(self):
-        # Boundaries from the brief: A 70+, B 60-69, C 50-59, D 40-49, F under 40
+        #Boundaries from the brief: A 70+, B 60-69, C 50-59, D 40-49, F under 40
         pct = self.percentage
         if pct >= 70:
             return "A"

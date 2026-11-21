@@ -44,7 +44,6 @@ def pickJoke(jokes, previous=None):
     #'or jokes' is a fallback for when there is only one joke in the file
     return random.choice(choices or jokes)
 
-
 def loadFavourites(path=FAVOURITES_FILE):
     """Return saved favourites as a list of 'setup | punchline' strings."""
     if not os.path.exists(path):

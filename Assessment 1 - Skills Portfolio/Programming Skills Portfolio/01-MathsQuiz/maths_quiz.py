@@ -106,7 +106,6 @@ def saveHighScores(scores, path=SCORE_FILE):
             file.write(f"{level},{score}\n")
 
 #GUI
-
 class MathsQuiz:
     def __init__(self, root):
         self.root = root

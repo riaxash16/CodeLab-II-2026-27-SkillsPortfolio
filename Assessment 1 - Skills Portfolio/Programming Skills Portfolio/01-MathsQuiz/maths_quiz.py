@@ -237,7 +237,7 @@ class MathsQuiz:
         self.submit_button.pack(pady=4)
         self.startTimer()
 
-    # --- timer ---
+    #Timer
     def startTimer(self):
         """(Re)start the countdown for the current attempt."""
         if self.timer_id:

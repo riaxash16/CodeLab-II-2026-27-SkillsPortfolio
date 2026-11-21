@@ -161,7 +161,7 @@ class JokeApp:
             self.root.after_cancel(self.anim_id)
             self.anim_id = None
 
-    # --- telling a joke ---
+    #Telling a joke
     def tellJoke(self):
         """Pick a joke and type the setup out letter by letter."""
         self.cancelAnimation()

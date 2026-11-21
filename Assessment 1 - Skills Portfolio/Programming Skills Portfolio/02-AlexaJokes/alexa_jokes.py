@@ -40,6 +40,7 @@ def loadJokes(path=JOKES_FILE):
 
 def pickJoke(jokes, previous=None):
     """Pick a random joke that is different from the previous one."""
+    # Leave out the joke just told so the same one doesn't appear twice in a row
     choices = [joke for joke in jokes if joke != previous]
     return random.choice(choices or jokes)
 

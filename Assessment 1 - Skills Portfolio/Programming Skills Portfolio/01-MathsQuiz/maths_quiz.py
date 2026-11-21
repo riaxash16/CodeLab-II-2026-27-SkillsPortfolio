@@ -281,7 +281,7 @@ class MathsQuiz:
                        else f"Time's up! The answer was {self.answer}")
         self.score += points
 
-        if points > 0:  # correct
+        if points > 0:  #correct
             self.streak += 1
             self.best_streak = max(self.best_streak, self.streak)
             self.finishQuestion(message, GOOD)

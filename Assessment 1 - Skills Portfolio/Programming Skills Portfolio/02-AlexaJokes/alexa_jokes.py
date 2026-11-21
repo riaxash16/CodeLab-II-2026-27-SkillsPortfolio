@@ -181,6 +181,7 @@ class JokeApp:
         """Typing animation for the setup bubble."""
         self.setup_bubble.config(text=text[:index])
         if index < len(text):
+            # Show one more letter every 30 ms to create the typing effect
             self.anim_id = self.root.after(30, self.typeText, text, index + 1)
         else:
             self.anim_id = None

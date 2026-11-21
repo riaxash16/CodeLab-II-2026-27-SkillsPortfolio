@@ -35,9 +35,9 @@ def randomInt(level):
     low, high = ranges[level]
     return random.randint(low, high)
 
-
 def decideOperation():
     """Randomly return '+' or '-'."""
+    #Random.choice picks one item from the list at random
     return random.choice(['+', '-'])
 
 

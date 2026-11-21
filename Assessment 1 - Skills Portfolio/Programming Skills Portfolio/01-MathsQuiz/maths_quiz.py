@@ -87,7 +87,6 @@ def streakMessage(streak):
         return f"Nice streak: {streak} in a row"
     return ""
 
-
 def loadHighScores(path=SCORE_FILE):
     """Return {level: best score}. Each line of the file is 'level,score'."""
     scores = {}

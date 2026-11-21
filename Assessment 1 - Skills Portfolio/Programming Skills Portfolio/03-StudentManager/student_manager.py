@@ -7,8 +7,7 @@ from tkinter import ttk, messagebox, simpledialog
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                          "studentMarks.txt")
-MAX_TOTAL = 160 # 3 coursework marks out of 20 + exam out of 100
-# Grade letters from best to worst (the chart uses this order)
+MAX_TOTAL = 160 # 3 coursework marks out of 20 + exam out of 100 grade letters from best to worst (the chart uses this order)
 # 3 coursework marks out of 20 + exam out of 100
 GRADES = ["A", "B", "C", "D", "F"]
 

@@ -13,7 +13,8 @@ SCORE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                           "highscores.txt")
 LEVEL_NAMES = {1: "Easy", 2: "Moderate", 3: "Advanced"}
 
-# Colour palette
+#Colour palette
+#All the colours are here so the whole theme can be changed in one place
 BG = "#1a1b2e"
 CARD = "#262842"
 TEXT = "#e6e8ff"

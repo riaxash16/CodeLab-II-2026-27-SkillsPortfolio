@@ -238,7 +238,6 @@ class MathsQuiz:
         self.startTimer()
 
     # --- timer ---
-
     def startTimer(self):
         """(Re)start the countdown for the current attempt."""
         if self.timer_id:

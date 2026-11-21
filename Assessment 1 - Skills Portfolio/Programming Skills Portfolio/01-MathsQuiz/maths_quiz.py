@@ -55,6 +55,7 @@ def isCorrect(user_answer, correct_answer, attempt):
 
 def displayResults(score):
     """Return a rank for a score out of 100."""
+    # Checked from the highest rank down, so the first one that matches is the right one
     if score > 90:
         return "A+"
     if score >= 80:

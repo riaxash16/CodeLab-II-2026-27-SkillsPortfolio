@@ -317,7 +317,7 @@ class MathsQuiz:
         self.clearScreen()
         rank = displayResults(self.score)
         previous_best = self.high_scores.get(self.level)
-        #A record is either the first score for this level or a beat of the old best
+        #A record is either the first score for this level or a beat of the old best score
         new_record = previous_best is None or self.score > previous_best
         if new_record:
             self.high_scores[self.level] = self.score

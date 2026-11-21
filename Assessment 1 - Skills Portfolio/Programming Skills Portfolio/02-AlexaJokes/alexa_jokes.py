@@ -77,7 +77,7 @@ class JokeApp:
         self.told = 0
         self.laughs = 0
         self.groans = 0
-        self.anim_id = None      #pending after() job
+        self.anim_id = None #pending after() job
         self.favourites = loadFavourites()
 
         root.configure(bg=BG)

@@ -90,7 +90,7 @@ class JokeApp:
                               font=("Segoe UI", 10))
         self.stats.pack(pady=(0, 8))
 
-        # Chat area
+        #Chat area
         chat = tk.Frame(root, bg=DARK)
         chat.pack(fill="both", expand=True, padx=20, pady=5)
 

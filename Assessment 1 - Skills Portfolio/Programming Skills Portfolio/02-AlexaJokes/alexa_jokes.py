@@ -156,7 +156,7 @@ class JokeApp:
         self.reaction_label.config(text=reaction(self.laughs, self.groans))
 
     def cancelAnimation(self):
-        # Stop a typing or drumroll animation that is still running, for example when Next Joke is clicked halfway through one
+        #Stop a typing or drumroll animation that is still running for example when Next Joke is clicked halfway through one
         if self.anim_id:
             self.root.after_cancel(self.anim_id)
             self.anim_id = None

@@ -90,7 +90,7 @@ def streakMessage(streak):
 def loadHighScores(path=SCORE_FILE):
     """Return {level: best score}. Each line of the file is 'level,score'."""
     scores = {}
-    # The file will not exist the first time the game is played, so check first
+    #The file will not exist the first time when the game is played so check first
     if os.path.exists(path):
         with open(path, encoding="utf-8") as file:
             for line in file:

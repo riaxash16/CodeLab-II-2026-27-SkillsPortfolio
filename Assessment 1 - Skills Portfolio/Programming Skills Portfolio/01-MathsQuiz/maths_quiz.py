@@ -43,6 +43,7 @@ def decideOperation():
 def isCorrect(user_answer, correct_answer, attempt):
     """Check the answer. Return (points earned, message to show)."""
     if user_answer == correct_answer:
+        #Full marks for the first try and half marks for the second
         points = 10 if attempt == 1 else 5
         return points, f"Correct! +{points} points"
     if attempt == 1:

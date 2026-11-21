@@ -73,7 +73,7 @@ def loadStudents(path=DATA_FILE):
     for line in lines[1:]: #skip the count line
         parts = line.split(",")
         code = int(parts[0])
-        # The first item is the code and the last four are the marks, so whatever sits in between is the name
+        #The first item is the code and the last four are the marks, so whatever sits in between is the name
         name = ",".join(parts[1:-4]).strip()
         marks = [int(p) for p in parts[-4:-1]]
         exam = int(parts[-1])

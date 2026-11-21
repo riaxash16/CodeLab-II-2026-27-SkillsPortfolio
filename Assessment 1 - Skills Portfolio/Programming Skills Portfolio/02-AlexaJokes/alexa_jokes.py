@@ -46,7 +46,7 @@ def pickJoke(jokes, previous=None):
 
 def loadFavourites(path=FAVOURITES_FILE):
     """Return saved favourites as a list of 'setup | punchline' strings."""
-    #No file yet just means no favourites have been saved
+    #No file yet just means that no favourites have been saved
     if not os.path.exists(path):
         return []
     with open(path, encoding="utf-8") as file:

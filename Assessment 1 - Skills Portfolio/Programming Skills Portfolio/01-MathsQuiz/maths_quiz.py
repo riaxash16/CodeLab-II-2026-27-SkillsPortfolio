@@ -311,7 +311,7 @@ class MathsQuiz:
         else:
             self.nextQuestion()
 
-    # --- results ---
+    #Results
     def showResults(self):
         """Show score, rank, comment, high score and play-again options."""
         self.clearScreen()

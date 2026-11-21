@@ -10,7 +10,7 @@ DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
 MAX_TOTAL = 160 #3 coursework marks out of 20+ exam out of 100 grade letters from best to worst (the chart uses this order)
 GRADES = ["A", "B", "C", "D", "F"]
 
-# Colour palette
+#Colour palette
 BG = "#161a2b"
 PANEL = "#20253d"
 TEXT = "#e8ebff"

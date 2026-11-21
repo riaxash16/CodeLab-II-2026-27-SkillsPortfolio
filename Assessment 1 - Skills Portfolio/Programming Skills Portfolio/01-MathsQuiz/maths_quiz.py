@@ -99,7 +99,6 @@ def loadHighScores(path=SCORE_FILE):
                     scores[int(parts[0])] = int(parts[1])
     return scores
 
-
 def saveHighScores(scores, path=SCORE_FILE):
     with open(path, "w", encoding="utf-8") as file:
         for level, score in sorted(scores.items()):

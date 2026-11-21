@@ -181,7 +181,7 @@ class JokeApp:
         """Typing animation for the setup bubble."""
         self.setup_bubble.config(text=text[:index])
         if index < len(text):
-            # Show one more letter every 30 ms to create the typing effect
+            #Show one more letter every 30 ms to create the typing effect
             self.anim_id = self.root.after(30, self.typeText, text, index + 1)
         else:
             self.anim_id = None
@@ -196,6 +196,7 @@ class JokeApp:
         self.drumroll(0)
 
     def drumroll(self, step):
+        """Simulate a drumroll animation before revealing the punchline."""
         if step < 6:
             self.punch_bubble.config(text="Drumroll" + "." * (step % 4))
             self.anim_id = self.root.after(300, self.drumroll, step + 1)

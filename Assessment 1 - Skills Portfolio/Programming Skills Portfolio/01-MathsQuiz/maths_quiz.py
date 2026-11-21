@@ -120,7 +120,7 @@ class MathsQuiz:
                         background=ACCENT, bordercolor=BG, lightcolor=ACCENT,
                         darkcolor=ACCENT)
 
-        # Variables that track the state of the current round
+        #Variables that track the state of the current round
         self.high_scores = loadHighScores()
         self.level = 1
         self.score = 0

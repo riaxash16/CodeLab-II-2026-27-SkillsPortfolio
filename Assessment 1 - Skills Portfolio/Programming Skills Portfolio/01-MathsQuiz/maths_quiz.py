@@ -1,6 +1,6 @@
 """Exercise 1 - Maths Quiz (Tkinter)."""
-# AI reference: this file was written with the understanding of a youtube video.
-# (10 questions, 3 difficulty levels, 2 attempts per question, ranked results).
+#AI reference: this file was written with the understanding of a youtube video.
+#(10 questions, 3 difficulty levels, 2 attempts per question, ranked results).
 
 import os
 import random
@@ -8,7 +8,7 @@ import tkinter as tk
 from tkinter import ttk
 
 TOTAL_QUESTIONS = 10
-TIME_LIMIT = 20  #seconds allowed per attempt
+TIME_LIMIT = 20  #Seconds allowed per attempt
 SCORE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                           "highscores.txt")
 LEVEL_NAMES = {1: "Easy", 2: "Moderate", 3: "Advanced"}

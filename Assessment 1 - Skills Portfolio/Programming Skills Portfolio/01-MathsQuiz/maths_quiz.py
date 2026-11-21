@@ -25,7 +25,7 @@ BAD = "#ff7b8e"
 WARN = "#f5c26b"
 
 
-# ---------- Logic functions (no GUI code in these) ----------
+#Logic functions
 
 def randomInt(level):
     """Return a random number with the right number of digits for the level.

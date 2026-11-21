@@ -138,6 +138,8 @@ class MathsQuiz:
 
     def clearScreen(self):
         """Cancel pending timers and remove every widget."""
+        # Cancel any running timers first, otherwise they would try to update
+        # widgets that have already been destroyed
         for job in (self.timer_id, self.next_id):
             if job:
                 self.root.after_cancel(job)

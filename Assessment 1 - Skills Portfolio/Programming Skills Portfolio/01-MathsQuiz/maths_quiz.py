@@ -255,6 +255,7 @@ class MathsQuiz:
             self.handleAnswer(None)
             return
         self.time_left -= 1
+        #Ask Tkinter to call this method again in 1000 ms (one second)
         self.timer_id = self.root.after(1000, self.tick)
 
     #Answering

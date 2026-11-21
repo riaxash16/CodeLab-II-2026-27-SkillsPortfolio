@@ -52,7 +52,6 @@ def isCorrect(user_answer, correct_answer, attempt):
     #Wrong on the second try as well: no points and the answer is revealed
     return 0, f"Out of tries. The answer was {correct_answer}"
 
-
 def displayResults(score):
     """Return a rank for a score out of 100."""
     # Checked from the highest rank down, so the first one that matches is the right one

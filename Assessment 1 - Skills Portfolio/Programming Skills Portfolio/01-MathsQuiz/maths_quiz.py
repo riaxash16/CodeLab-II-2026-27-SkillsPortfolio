@@ -94,6 +94,7 @@ def loadHighScores(path=SCORE_FILE):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as file:
             for line in file:
+                # Each line looks like "1,80" (level, best score)
                 parts = line.strip().split(",")
                 if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit():
                     scores[int(parts[0])] = int(parts[1])

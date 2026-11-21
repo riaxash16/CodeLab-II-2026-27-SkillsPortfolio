@@ -222,6 +222,7 @@ class JokeApp:
 
     def saveFavourite(self):
         entry = f"{self.current[0]} | {self.current[1]}"
+        #Don't save the same joke twice
         if entry not in self.favourites:
             self.favourites.append(entry)
             saveFavourites(self.favourites)

@@ -285,7 +285,7 @@ class MathsQuiz:
             self.streak += 1
             self.best_streak = max(self.best_streak, self.streak)
             self.finishQuestion(message, GOOD)
-        elif self.attempt == 1:  # wrong, second chance
+        elif self.attempt == 1:  #wrong, second chance
             self.streak = 0
             self.attempt = 2
             self.feedback.config(text=message, fg=WARN)

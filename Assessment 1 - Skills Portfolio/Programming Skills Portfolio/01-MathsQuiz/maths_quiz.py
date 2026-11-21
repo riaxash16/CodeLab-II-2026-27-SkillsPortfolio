@@ -29,8 +29,10 @@ WARN = "#f5c26b"
 
 def randomInt(level):
     """Return a random number with the right number of digits for the level.
-    level 1 = single digit, 2 = double digit, 3 = four digit.""" #A dictionary maps each level to its (smallest, largest) number that avoids writing three separate if-blocks
-    ranges = {1: (0, 9), 2: (10, 99), 3: (1000, 9999)}
+    level 1 = single digit, 2 = double digit, 3 = four digit.""" 
+    #A dictionary maps each level to its (smallest, largest) number that avoids writing three separate if-blocks
+    ranges = {1: (0, 9), 2: (10, 99), 3: (1000, 9999)} 
+    #Unpack the pair for this level then pick a whole number in that range (random.randint includes both ends)
     low, high = ranges[level]
     return random.randint(low, high)
 

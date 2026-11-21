@@ -28,7 +28,7 @@ class Student:
     def __init__(self, code, name, coursework_marks, exam):
         self.code = code
         self.name = name
-        self.coursework_marks = coursework_marks  # list of 3 marks out of 20
+        self.coursework_marks = coursework_marks #list of 3 marks out of 20
         self.exam = exam
 
     @property

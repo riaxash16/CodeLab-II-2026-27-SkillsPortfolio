@@ -301,6 +301,7 @@ class MathsQuiz:
         self.entry.config(state="disabled")
         self.submit_button.config(state="disabled")
         self.timer_label.config(text="")
+        #Wait 1.3 seconds so the player can read the feedback and then move on
         self.next_id = self.root.after(1300, self.moveOn)
 
     def moveOn(self):

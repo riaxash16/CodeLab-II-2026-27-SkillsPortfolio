@@ -37,7 +37,6 @@ def loadJokes(path=JOKES_FILE):
                 jokes.append((setup + "?", punchline.strip()))
     return jokes
 
-
 def pickJoke(jokes, previous=None):
     """Pick a random joke that is different from the previous one."""
     # Leave out the joke just told so the same one doesn't appear twice in a row

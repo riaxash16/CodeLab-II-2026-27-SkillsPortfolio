@@ -21,7 +21,7 @@ GOOD = "#7ee08a"
 BAD = "#ff7b8e"
 
 
-# ---------- Logic functions (no GUI code in these) ----------
+#Logic functions
 def loadJokes(path=JOKES_FILE):
     """Read the jokes file and return a list of (setup, punchline) tuples.
     Each line is split at the FIRST question mark only."""

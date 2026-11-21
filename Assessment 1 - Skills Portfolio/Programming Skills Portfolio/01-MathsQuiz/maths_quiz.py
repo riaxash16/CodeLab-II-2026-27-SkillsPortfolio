@@ -223,6 +223,7 @@ class MathsQuiz:
                               insertbackground=TEXT, relief="flat")
         self.entry.pack(pady=(0, 20), ipady=6)
         self.entry.focus()
+        #Pressing Enter does the same thing as clicking Submit
         self.entry.bind("<Return>", lambda event: self.checkAnswer())
 
         self.timer_label = tk.Label(self.root, text="", bg=BG, fg=GOOD,

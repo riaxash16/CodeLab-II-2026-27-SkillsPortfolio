@@ -29,6 +29,7 @@ def loadJokes(path=JOKES_FILE):
     with open(path, encoding="utf-8") as file:
         for line in file:
             line = line.strip()
+            #Skip blank lines and any line without a question mark
             if "?" in line:
                 setup, punchline = line.split("?", 1)
                 jokes.append((setup + "?", punchline.strip()))

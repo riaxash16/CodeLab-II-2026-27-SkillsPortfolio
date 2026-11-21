@@ -11,6 +11,7 @@ MAX_TOTAL = 160 #3 coursework marks out of 20+ exam out of 100 grade letters fro
 GRADES = ["A", "B", "C", "D", "F"]
 
 #Colour palette
+# Colours are kept in one place so the theme is easy to change
 BG = "#161a2b"
 PANEL = "#20253d"
 TEXT = "#e8ebff"

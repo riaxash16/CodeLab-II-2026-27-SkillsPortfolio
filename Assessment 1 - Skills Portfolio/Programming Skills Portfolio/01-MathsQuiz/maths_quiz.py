@@ -257,7 +257,6 @@ class MathsQuiz:
         self.timer_id = self.root.after(1000, self.tick)
 
     # --- answering ---
-
     def checkAnswer(self):
         """Read the Entry box and mark the answer."""
         try:

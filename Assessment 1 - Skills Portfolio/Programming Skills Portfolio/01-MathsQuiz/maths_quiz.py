@@ -261,8 +261,7 @@ class MathsQuiz:
     #Answering
     def checkAnswer(self):
         """Read the Entry box and mark the answer."""
-        # int() raises a ValueError if the box is empty or has letters in it,
-        # so catch that and show a message instead of crashing
+        #int() raises a ValueError if the box is empty or has letters in it so catch that and show a message instead of crashing
         try:
             user_answer = int(self.entry.get())
         except ValueError:

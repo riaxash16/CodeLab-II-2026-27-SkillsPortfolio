@@ -70,7 +70,7 @@ def loadStudents(path=DATA_FILE):
     students = []
     with open(path, encoding="utf-8") as file:
         lines = [line.strip() for line in file if line.strip()]
-    for line in lines[1:]:  #skip the count line
+    for line in lines[1:]: #skip the count line
         parts = line.split(",")
         code = int(parts[0])
         name = ",".join(parts[1:-4]).strip()

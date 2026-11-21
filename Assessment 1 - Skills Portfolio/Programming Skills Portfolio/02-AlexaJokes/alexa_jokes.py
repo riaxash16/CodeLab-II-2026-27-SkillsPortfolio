@@ -31,7 +31,7 @@ def loadJokes(path=JOKES_FILE):
             line = line.strip()
             #Skip blank lines and any line without a question mark
             if "?" in line:
-                #The 1 means "split at the FIRST question mark only", in case
+                #The 1 means "split at the FIRST question mark only", in case # a punchline contains another one
                 setup, punchline = line.split("?", 1)
                 jokes.append((setup + "?", punchline.strip()))
     return jokes

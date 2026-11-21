@@ -208,7 +208,6 @@ class JokeApp:
                 button.config(state="normal")
 
     # --- reactions and favourites ---
-
     def rateLaugh(self):
         self.laughs += 1
         self.laugh_button.config(state="disabled")

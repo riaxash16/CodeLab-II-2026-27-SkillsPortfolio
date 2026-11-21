@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 JOKES_FILE = os.path.join(HERE, "randomJokes.txt")
 FAVOURITES_FILE = os.path.join(HERE, "favourites.txt")
 
-# Colour palette
+#Colour palette
 BG = "#14213d"
 BUBBLE = "#00b4d8"
 PUNCH = "#ffd166"

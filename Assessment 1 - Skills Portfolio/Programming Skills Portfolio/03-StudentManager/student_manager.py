@@ -42,6 +42,7 @@ class Student:
 
     @property
     def percentage(self):
+        # Overall percentage out of the 160 marks available
         return self.total / MAX_TOTAL * 100
 
     @property

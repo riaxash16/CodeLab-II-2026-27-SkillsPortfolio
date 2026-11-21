@@ -104,7 +104,6 @@ def saveHighScores(scores, path=SCORE_FILE):
         for level, score in sorted(scores.items()):
             file.write(f"{level},{score}\n")
 
-
 # ---------- GUI ----------
 
 class MathsQuiz:

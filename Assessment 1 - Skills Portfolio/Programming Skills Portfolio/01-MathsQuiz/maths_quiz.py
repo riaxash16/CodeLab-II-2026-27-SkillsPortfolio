@@ -189,6 +189,7 @@ class MathsQuiz:
         self.num1 = randomInt(self.level)
         self.num2 = randomInt(self.level)
         self.operation = decideOperation()
+        #Work out the correct answer now so checkAnswer can compare against it later
         self.answer = (self.num1 + self.num2 if self.operation == '+'
                        else self.num1 - self.num2)
         self.displayProblem()

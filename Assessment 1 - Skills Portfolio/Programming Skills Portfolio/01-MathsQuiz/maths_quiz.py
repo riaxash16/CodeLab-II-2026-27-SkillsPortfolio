@@ -79,7 +79,6 @@ def rankComment(rank):
     }
     return comments[rank]
 
-
 def streakMessage(streak):
     """Encouragement that grows with the number of correct answers in a row."""
     if streak >= 5:

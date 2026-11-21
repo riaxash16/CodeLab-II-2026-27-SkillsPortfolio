@@ -110,6 +110,7 @@ class JokeApp:
         self.reaction_label.pack(side="bottom", pady=8)
 
         #Rating buttons (shown once the punchline appears)
+        #Rating buttons: they stay disabled until the punchline has appeared
         self.rating_frame = tk.Frame(chat, bg=DARK)
         self.rating_frame.pack(side="bottom")
         self.laugh_button = self.makeButton(self.rating_frame, "Ha ha!",

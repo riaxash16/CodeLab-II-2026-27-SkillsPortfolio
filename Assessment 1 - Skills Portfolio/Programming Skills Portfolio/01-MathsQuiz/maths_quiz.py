@@ -46,6 +46,7 @@ def isCorrect(user_answer, correct_answer, attempt):
         #Full marks for the first try and half marks for the second
         points = 10 if attempt == 1 else 5
         return points, f"Correct! +{points} points"
+    #Wrong on the first try: no points yet but there is another chance
     if attempt == 1:
         return 0, "Not quite - you get one more try!"
     return 0, f"Out of tries. The answer was {correct_answer}"

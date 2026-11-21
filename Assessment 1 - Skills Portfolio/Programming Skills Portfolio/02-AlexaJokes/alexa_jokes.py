@@ -109,7 +109,7 @@ class JokeApp:
                                        fg=MUTED, font=("Segoe UI", 10, "italic"))
         self.reaction_label.pack(side="bottom", pady=8)
 
-        # Rating buttons (shown once the punchline appears)
+        #Rating buttons (shown once the punchline appears)
         self.rating_frame = tk.Frame(chat, bg=DARK)
         self.rating_frame.pack(side="bottom")
         self.laugh_button = self.makeButton(self.rating_frame, "Ha ha!",

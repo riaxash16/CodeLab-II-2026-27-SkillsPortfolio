@@ -68,7 +68,7 @@ def reaction(laughs, groans):
     return "Perfectly balanced, as all things should be."
 
 
-# ---------- GUI ----------
+#GUI
 class JokeApp:
     def __init__(self, root, jokes):
         self.root = root

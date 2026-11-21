@@ -10,6 +10,7 @@ JOKES_FILE = os.path.join(HERE, "randomJokes.txt")
 FAVOURITES_FILE = os.path.join(HERE, "favourites.txt")
 
 #Colour palette
+#Colours are kept in one place so the theme is easy to change
 BG = "#14213d"
 BUBBLE = "#00b4d8"
 PUNCH = "#ffd166"

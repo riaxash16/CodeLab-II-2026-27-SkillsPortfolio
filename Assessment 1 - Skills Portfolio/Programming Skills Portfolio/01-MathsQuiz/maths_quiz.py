@@ -37,7 +37,7 @@ def randomInt(level):
 
 def decideOperation():
     """Randomly return '+' or '-'."""
-    #Random.choice picks one item from the list at random
+    #random.choice picks one item from the list at random
     return random.choice(['+', '-']) 
 
 def isCorrect(user_answer, correct_answer, attempt):

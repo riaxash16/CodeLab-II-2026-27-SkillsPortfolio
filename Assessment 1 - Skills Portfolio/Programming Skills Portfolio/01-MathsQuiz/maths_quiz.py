@@ -26,7 +26,6 @@ WARN = "#f5c26b"
 
 
 #Logic functions
-
 def randomInt(level):
     """Return a random number with the right number of digits for the level.
     level 1 = single digit, 2 = double digit, 3 = four digit.""" 

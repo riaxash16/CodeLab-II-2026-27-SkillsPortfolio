@@ -134,7 +134,7 @@ class MathsQuiz:
         self.next_id = None
         self.displayMenu()
 
-    # --- helpers ---
+    #Helpers
 
     def clearScreen(self):
         """Cancel pending timers and remove every widget."""

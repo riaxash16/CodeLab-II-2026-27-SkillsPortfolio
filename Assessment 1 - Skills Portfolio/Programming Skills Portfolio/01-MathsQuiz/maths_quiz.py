@@ -312,7 +312,6 @@ class MathsQuiz:
             self.nextQuestion()
 
     # --- results ---
-
     def showResults(self):
         """Show score, rank, comment, high score and play-again options."""
         self.clearScreen()

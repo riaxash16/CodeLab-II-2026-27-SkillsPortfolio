@@ -249,6 +249,7 @@ class MathsQuiz:
         """Update the countdown once a second; time-out counts as a wrong answer."""
         colour = GOOD if self.time_left > 10 else WARN if self.time_left > 5 else BAD
         self.timer_label.config(text=f"Time left: {self.time_left}s", fg=colour)
+        #Time ran out: treat it as a wrong answer (None means "no answer given")
         if self.time_left <= 0:
             self.timer_id = None
             self.handleAnswer(None)

@@ -73,7 +73,7 @@ class JokeApp:
     def __init__(self, root, jokes):
         self.root = root
         self.jokes = jokes
-        self.current = None      # (setup, punchline) on screen
+        self.current = None      #(setup, punchline) on screen
         self.told = 0
         self.laughs = 0
         self.groans = 0

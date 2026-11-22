@@ -64,7 +64,6 @@ class Student:
         marks = ",".join(str(m) for m in self.coursework_marks)
         return f"{self.code},{self.name},{marks},{self.exam}"
 
-
 def loadStudents(path=DATA_FILE):
     """Read the file. First line is the student count, then one student per line."""
     students = []

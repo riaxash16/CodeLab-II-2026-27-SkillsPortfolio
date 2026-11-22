@@ -421,6 +421,8 @@ class StudentManagerApp:
             self.showStudents([worst], "Lowest total score", summary=False)
 
     def sortStudents(self):
+        # sorted() needs a "key" to know what to compare; lowercasing the names
+        # makes the name order ignore capital letters
         keys = {"Name": lambda s: s.name.lower(),
                 "Number": lambda s: s.code,
                 "Percentage": lambda s: s.percentage}

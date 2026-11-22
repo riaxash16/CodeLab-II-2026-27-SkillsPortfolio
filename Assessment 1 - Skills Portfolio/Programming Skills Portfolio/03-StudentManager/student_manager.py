@@ -206,7 +206,7 @@ class StudentManagerApp:
         self.root.geometry("1120x680")
         self.root.configure(bg=BG)
         self.students = loadStudents()
-        self.shown = list(self.students)   #What the table currently displays
+        self.shown = list(self.students) #What the table currently displays
         self.title_text = "All student records"
         self.setupStyle()
         self.buildLayout()

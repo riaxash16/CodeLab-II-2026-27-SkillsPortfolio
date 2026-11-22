@@ -197,7 +197,6 @@ class StudentForm(tk.Toplevel):
         self.result = Student(code, name, marks, exam)
         self.destroy()
 
-
 class StudentManagerApp:
     COLUMNS = ("Name", "Number", "Coursework", "Exam", "Percentage", "Grade")
 

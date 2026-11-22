@@ -262,7 +262,7 @@ class StudentManagerApp:
                            ).pack(anchor="w", padx=22)
         self.makeButton(menu, "Sort", self.sortStudents, ACCENT).pack(pady=3)
 
-        # Right side
+        #Right side
         right = tk.Frame(self.root, bg=BG, padx=14, pady=12)
         right.pack(side="right", fill="both", expand=True)
 

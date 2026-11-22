@@ -373,7 +373,7 @@ class StudentManagerApp:
     def askForStudent(self, prompt):
         """Use the selected table row if there is one, otherwise ask for a
         name or number. Returns one matching student (or None)."""
-        #If a row is already selected in the table, use that student
+        #If a row is already selected in the table then use that student
         selected = self.table.selection()
         if selected:
             for student in self.students:

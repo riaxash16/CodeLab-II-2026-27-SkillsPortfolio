@@ -460,7 +460,7 @@ class StudentManagerApp:
             return
         form = StudentForm(self.root, "Update student", student)
         if form.result is None:
-            # The code has to stay unique, but a student may keep their own code
+            #The code has to stay unique, but a student may keep their own code
             return
         for other in self.students:
             if other is not student and other.code == form.result.code:

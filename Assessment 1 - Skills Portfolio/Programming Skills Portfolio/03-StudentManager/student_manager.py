@@ -120,7 +120,6 @@ def passRate(students):
         return 0.0
     return sum(1 for s in students if s.percentage >= 40) / len(students) * 100
 
-
 def gradeCounts(students):
     """Return {grade: number of students} for A to F."""
     counts = {grade: 0 for grade in GRADES}

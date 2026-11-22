@@ -170,6 +170,8 @@ class StudentForm(tk.Toplevel):
 
     def save(self):
         """Validate every field, then store a Student in self.result."""
+        # Convert the text boxes to numbers; a ValueError means something was not
+        # a whole number
         try:
             code = int(self.entries[0].get())
             name = self.entries[1].get().strip()

@@ -411,6 +411,7 @@ class StudentManagerApp:
 
     def showHighest(self):
         if self.students:
+            # max() and min() with a key compare the students by their total mark
             best = max(self.students, key=lambda s: s.total)
             self.showStudents([best], "Highest total score", summary=False)
 

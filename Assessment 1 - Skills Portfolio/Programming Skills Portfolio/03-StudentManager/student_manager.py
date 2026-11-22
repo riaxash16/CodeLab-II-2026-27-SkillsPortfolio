@@ -79,7 +79,6 @@ def loadStudents(path=DATA_FILE):
         students.append(Student(code, name, marks, exam))
     return students
 
-
 def saveStudents(students, path=DATA_FILE):
     """Write the records back to the file (count first, then each student)."""
     with open(path, "w", encoding="utf-8") as file:

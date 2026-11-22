@@ -86,7 +86,6 @@ def saveStudents(students, path=DATA_FILE):
         for student in students:
             file.write(student.toLine() + "\n")
 
-
 def findStudents(students, query):
     """Return students whose code matches exactly, or whose name matches.
     Exact name matches win; otherwise partial matches are returned."""

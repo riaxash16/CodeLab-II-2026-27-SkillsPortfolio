@@ -247,7 +247,7 @@ class StudentManagerApp:
         for text, command, colour in buttons:
             self.makeButton(menu, text, command, colour).pack(pady=3)
 
-        # 5. Sort section
+        #5. Sort section
         tk.Label(menu, text="5. Sort records", bg=PANEL, fg=ACCENT,
                  font=("Segoe UI", 10, "bold")).pack(pady=(14, 3))
         self.sort_field = ttk.Combobox(menu, state="readonly", width=22,

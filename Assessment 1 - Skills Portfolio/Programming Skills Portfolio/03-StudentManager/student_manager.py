@@ -114,7 +114,6 @@ def averagePercentage(students):
         return 0.0
     return sum(s.percentage for s in students) / len(students)
 
-
 def passRate(students):
     """Percentage of students who scored 40% or more (grade D or better)."""
     if not students:

@@ -393,7 +393,7 @@ class StudentManagerApp:
             return None
         return matches[0]
 
-    # --- menu actions ---
+    #Menu actions
     def viewAll(self):
         self.showStudents(self.students, "All student records")
 

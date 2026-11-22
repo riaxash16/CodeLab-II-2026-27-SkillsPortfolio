@@ -315,7 +315,7 @@ class StudentManagerApp:
     def drawTable(self, students, summary=True):
         self.table.delete(*self.table.get_children())
         for s in students:
-            # iid is the student number, so a selected row can be matched back to a student; the tag colours the row by grade
+            #iid is the student number, so a selected row can be matched back to a student; the tag colours the row by grade
             self.table.insert("", "end", iid=str(s.code), tags=(s.grade,),
                               values=(s.name, s.code, f"{s.coursework}/60",
                                       f"{s.exam}/100", f"{s.percentage:.1f}%",

@@ -349,6 +349,7 @@ class StudentManagerApp:
             self.stats_label.config(text="No students loaded.")
 
         self.chart.delete("all")
+        # Bar heights are scaled against the biggest group so the chart always fits
         counts = gradeCounts(everyone)
         biggest = max(counts.values()) or 1
         self.chart.create_text(10, 8, anchor="w", fill=MUTED,

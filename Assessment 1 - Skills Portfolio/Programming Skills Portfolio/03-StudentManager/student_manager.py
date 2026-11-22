@@ -95,7 +95,7 @@ def findStudents(students, query):
     query = query.strip().lower()
     if not query:
         return []
-    # Order of preference: exact student number, then exact name, then part of a name
+    #Order of preference: exact student number then exact name and then part of a name
     by_code = [s for s in students if str(s.code) == query]
     if by_code:
         return by_code

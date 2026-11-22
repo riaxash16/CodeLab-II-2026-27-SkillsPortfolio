@@ -394,7 +394,6 @@ class StudentManagerApp:
         return matches[0]
 
     # --- menu actions ---
-
     def viewAll(self):
         self.showStudents(self.students, "All student records")
 

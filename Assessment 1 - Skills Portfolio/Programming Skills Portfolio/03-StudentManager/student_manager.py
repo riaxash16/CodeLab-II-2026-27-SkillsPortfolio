@@ -272,7 +272,7 @@ class StudentManagerApp:
                                     font=("Segoe UI", 15, "bold"))
         self.title_label.pack(side="left")
         self.search_var = tk.StringVar()
-        # Run applySearch every time the text in the search box changes
+        #Run applySearch every time the text in the search box changes
         self.search_var.trace_add("write", lambda *args: self.applySearch())
         tk.Entry(header, textvariable=self.search_var, width=22, bg=PANEL,
                  fg=TEXT, insertbackground=TEXT, relief="flat",

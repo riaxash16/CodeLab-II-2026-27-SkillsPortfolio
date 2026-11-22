@@ -214,7 +214,7 @@ class StudentManagerApp:
 
     def setupStyle(self):
         style = ttk.Style()
-        # The "clam" theme is used because it allows the table colours to be changed
+        #The "clam" theme is used because it allows the table colours to be changed
         style.theme_use("clam")
         style.configure("Treeview", background=PANEL, fieldbackground=PANEL,
                         foreground=TEXT, rowheight=28, borderwidth=0,

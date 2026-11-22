@@ -129,7 +129,6 @@ def gradeCounts(students):
 
 
 # ---------- GUI ----------
-
 class StudentForm(tk.Toplevel):
     """Pop-up form used for adding and updating a student."""
 

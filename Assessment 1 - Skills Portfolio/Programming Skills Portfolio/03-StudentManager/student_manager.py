@@ -109,7 +109,6 @@ def searchStudents(students, text):
     return [s for s in students
             if text in s.name.lower() or text in str(s.code)]
 
-
 def averagePercentage(students):
     if not students:
         return 0.0

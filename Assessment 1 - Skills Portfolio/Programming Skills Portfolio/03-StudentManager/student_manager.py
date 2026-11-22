@@ -304,7 +304,7 @@ class StudentManagerApp:
                                highlightthickness=0)
         self.chart.pack(side="right", padx=10, pady=5)
 
-    # --- display ---
+    #Display
     def showStudents(self, students, title, summary=True):
         """Remember what is shown, then redraw the table."""
         self.shown = list(students)

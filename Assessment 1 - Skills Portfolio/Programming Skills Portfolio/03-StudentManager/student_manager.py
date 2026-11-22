@@ -101,7 +101,6 @@ def findStudents(students, query):
         return exact
     return [s for s in students if query in s.name.lower()]
 
-
 def searchStudents(students, text):
     """Live-search filter: keep students whose name or code contains the text."""
     text = text.strip().lower()

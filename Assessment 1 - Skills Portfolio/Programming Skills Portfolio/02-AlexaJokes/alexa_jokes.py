@@ -139,7 +139,7 @@ class JokeApp:
         self.makeButton(controls, "Quit", root.destroy, BAD,
                         20).grid(row=1, column=1, padx=5, pady=4)
 
-        self.makeButton(root, "My favourites", self.showFavourites, DARK,
+        self.makeButton(root, "My favourites", self.showFavourites, PUNCH,
                         16).pack(pady=(0, 12))
         self.updateStats()
 
